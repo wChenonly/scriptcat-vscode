@@ -6,6 +6,7 @@
   "version": "0.5.0",
   "publisher": "CodFrm",
   "icon": "icons/logo.png",
+  "packageManager": "pnpm@10.29.2",
   "keywords": [
     "userscript",
     "Scriptcat",
@@ -13,7 +14,7 @@
     "Greasemonkey"
   ],
   "engines": {
-    "vscode": "^1.61.0"
+    "vscode": "^1.90.0"
   },
   "categories": [
     "Debuggers",
@@ -74,12 +75,12 @@
     "test": "node ./out/test/runTest.js"
   },
   "devDependencies": {
-    "@rspack/cli": "^1.7.2",
-    "@rspack/core": "^1.7.2",
+    "@rspack/cli": "^1.7.5",
+    "@rspack/core": "^1.7.5",
     "@types/mocha": "^10.0.0",
     "@types/node": "20.x",
-    "@types/vscode": "^1.61.0",
-    "@types/ws": "^8.5.0",
+    "@types/vscode": "^1.90.0",
+    "@types/ws": "^8.18.1",
     "@typescript-eslint/eslint-plugin": "^6.0.0",
     "@typescript-eslint/parser": "^6.0.0",
     "@vscode/test-electron": "^2.3.0",
@@ -89,7 +90,7 @@
     "typescript": "^5.3.0"
   },
   "dependencies": {
-    "vscode-debugadapter": "^1.49.0",
-    "ws": "^8.2.3"
+   "@vscode/debugadapter": "^1.68.0",
+    "ws": "^8.18.3"
   }
 }
